@@ -1,0 +1,60 @@
+/* tags */
+
+body {
+	background: #1b1c1d;
+}
+
+pre {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+
+/* semantic-ui overrides & add-on classes */
+
+.ui.menu {
+	margin: 0;
+}
+
+.ui.compact.segment {
+	display: inline-block;
+	margin: 0;
+}
+
+.ui.button.spaced-button {
+	margin: 0.25em;
+}
+
+/* general classes */
+
+.main {
+	padding-top: 1em;
+	padding-bottom: 2em;
+	background: #fff;
+}
+
+.pinkish {
+	color: #fbf;
+}
+
+
+/* utility classes, which semantic-ui doesn't provider */
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.orange {
+	/* match semantic-ui's orange for text */
+	color: #f26202;
+}
