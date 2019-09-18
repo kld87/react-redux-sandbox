@@ -10,7 +10,7 @@ import hljs from 'highlightjs';
 class ReduxDebugBlock extends React.Component {
 	render() {
 		//generate Redux debugging text
-		const totals = "//Current \"totals\" state from Redux\n const reduxStateTotals = " + JSON.stringify(this.props.totals, null, 2) + ';';
+		const totals = "//Current \"totals\" state from Redux\nconst reduxStateTotals = " + JSON.stringify(this.props.totals, null, 2) + ';';
 		const lastAction = "//Most recent non-internal action from Redux\nconst reduxLastAction = " + JSON.stringify(this.props.lastAction, null, 2) + ';';
 
 		return (
